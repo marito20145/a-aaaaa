@@ -1,0 +1,26 @@
+{
+  "name": "caja-pos",
+  "version": "0.3.0",
+  "description": "Sistema de caja POS con SQLite para minimarkets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "demo": "node scripts/datos-ejemplo.js",
+    "test": "node --test tests/*.test.js",
+    "verificar-db": "node scripts/verificar-db.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.6",
+    "ejs": "^7.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  },
+  "private": true
+}
